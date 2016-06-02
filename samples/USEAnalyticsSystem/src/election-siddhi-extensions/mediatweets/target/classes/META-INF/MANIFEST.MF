@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1464598642575
+Build-Jdk: 1.8.0_91
+Built-By: anoukh
+Bundle-Description: us electionsystem
+Bundle-ManifestVersion: 2
+Bundle-Name: siddhi-extension-mediatweets
+Bundle-SymbolicName: siddhi-extension-mediatweets
+Bundle-Version: 3.0.6.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Tool: Bnd-1.50.0

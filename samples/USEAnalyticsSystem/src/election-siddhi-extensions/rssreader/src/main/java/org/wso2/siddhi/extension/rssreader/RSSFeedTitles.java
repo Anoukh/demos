@@ -68,7 +68,7 @@ public class RSSFeedTitles extends StreamProcessor {
             if (((String) urlString).startsWith("https:")) {
                 try {
                     rssURL = new URL((String) urlString);
-                    TextArticals articals = readFeed(rssURL);
+                    TextArticles articals = readFeed(rssURL);
                     String[] titles = articals.getTitles();
                     String[] publishedDates = articals.getPublishedDate();
                     String[] descriptions = articals.getDescription();
@@ -123,7 +123,7 @@ public class RSSFeedTitles extends StreamProcessor {
         return attributeList;
     }
 
-    public TextArticals readFeed(URL rssURL) {
+    public TextArticles readFeed(URL rssURL) {
         String[] titles = null;
         String[] publishedDates = null;
         String[] descriptions = null;
@@ -147,20 +147,20 @@ public class RSSFeedTitles extends StreamProcessor {
         } catch (Exception e) {
             LOGGER.error("error read RSS feeds in readFeed function in RSSReedTitles class " + e);
         }
-        return new TextArticals(links, titles, publishedDates, descriptions);
+        return new TextArticles(links, titles, publishedDates, descriptions);
     }
 
     public String getValue(Element parent, String nodeName) {
         return parent.getElementsByTagName(nodeName).item(0).getFirstChild().getNodeValue();
     }
 
-    private class TextArticals {
+    private class TextArticles {
         private String[] titles;
         private String[] publishedDates;
         private String[] descriptions;
         private String[] links;
 
-        public TextArticals(String[] links, String[] titles, String[] publishedDates, String[] descriptions) {
+        public TextArticles(String[] links, String[] titles, String[] publishedDates, String[] descriptions) {
             this.links = links;
             this.titles = titles;
             this.publishedDates = publishedDates;

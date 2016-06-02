@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<twitter-analytic-app>
+    <main-title>Election 2016</main-title>
+    <database>
+        <host>localhost</host>
+        <port>3306</port>
+        <username>root</username>
+        <password>root</password>
+    </database>
+    <group name="Republican">
+        <sub-group name="Trump">
+            <hash-tag>trump</hash-tag>
+            <hash-tag>trump2016</hash-tag>
+            <hash-tag>trumpforpresident</hash-tag>
+        </sub-group>
+        <sub-group name="Cruz">
+            <hash-tag>cruz</hash-tag>
+            <hash-tag>cruz2016</hash-tag>
+            <hash-tag>cruzforpresident</hash-tag>
+            <hash-tag>tedcruz</hash-tag>
+        </sub-group>
+    </group>
+    <group name="Democratic">
+        <sub-group name="Clinton">
+            <hash-tag>clinton</hash-tag>
+            <hash-tag>clinton016</hash-tag>
+            <hash-tag>clintonforpresident</hash-tag>
+        </sub-group>
+        <sub-group name="Bernie">
+            <hash-tag>bernie</hash-tag>
+            <hash-tag>bernie2016</hash-tag>
+        </sub-group>
+    </group>
+    <group name="Default">
+            <hash-tag>election2016</hash-tag>
+            <hash-tag>USElection</hash-tag>
+            <hash-tag>USVotes2016</hash-tag>
+            <hash-tag>decision2016</hash-tag>
+            <hash-tag>USDecides</hash-tag>
+    </group>
+</twitter-analytic-app>

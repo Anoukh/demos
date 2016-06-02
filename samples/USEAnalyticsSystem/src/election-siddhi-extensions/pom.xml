@@ -36,6 +36,8 @@
         <module>fbmentions</module>
         <module>topcount</module>
         <module>wordcloudcombined</module>
+        <module>mediatweets</module>
+        <module>groupdivider</module>
     </modules>
     <dependencyManagement>
         <dependencies>

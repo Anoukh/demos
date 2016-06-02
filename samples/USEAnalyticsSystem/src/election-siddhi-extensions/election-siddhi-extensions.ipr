@@ -19,6 +19,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="groupdivider" />
+        <module name="mediatweets" />
         <module name="siddhi-extension-fbmensions" />
         <module name="siddhi-extension-fbmentions" />
         <module name="siddhi-extension-popularhtag" />
@@ -34,6 +36,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="election-siddhi-extensions" target="1.6" />
+      <module name="groupdivider" target="1.6" />
+      <module name="mediatweets" target="1.6" />
       <module name="siddhi-extension-fbmensions" target="1.6" />
       <module name="siddhi-extension-fbmentions" target="1.6" />
       <module name="siddhi-extension-popularhtag" target="1.6" />
@@ -51,6 +55,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fbmentions" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/groupdivider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mediatweets" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/popularhtag" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/popularlist" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rssreader" charset="UTF-8" />
@@ -70,6 +76,8 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="Osmorc" url="file://$PROJECT_DIR$/fbmentions" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/groupdivider" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/mediatweets" />
     <file type="Osmorc" url="file://$PROJECT_DIR$/popularhtag" />
     <file type="Osmorc" url="file://$PROJECT_DIR$/popularlist" />
     <file type="Osmorc" url="file://$PROJECT_DIR$/rssreader" />
@@ -247,6 +255,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/election-siddhi-extensions.iml" filepath="$PROJECT_DIR$/election-siddhi-extensions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/groupdivider/groupdivider.iml" filepath="$PROJECT_DIR$/groupdivider/groupdivider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mediatweets/mediatweets.iml" filepath="$PROJECT_DIR$/mediatweets/mediatweets.iml" />
       <module fileurl="file://$PROJECT_DIR$/rssreader/siddhi-extension-RSSReader.iml" filepath="$PROJECT_DIR$/rssreader/siddhi-extension-RSSReader.iml" />
       <module fileurl="file://$PROJECT_DIR$/worldcloud/siddhi-extension-WorldCloud.iml" filepath="$PROJECT_DIR$/worldcloud/siddhi-extension-WorldCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/fbmentions/siddhi-extension-fbmentions.iml" filepath="$PROJECT_DIR$/fbmentions/siddhi-extension-fbmentions.iml" />

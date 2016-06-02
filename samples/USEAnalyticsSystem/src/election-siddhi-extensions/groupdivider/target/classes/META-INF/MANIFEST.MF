@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1464871731858
+Build-Jdk: 1.8.0_91
+Built-By: anoukh
+Bundle-Description: us electionsystem
+Bundle-ManifestVersion: 2
+Bundle-Name: siddhi-extension-groupdivider
+Bundle-SymbolicName: siddhi-extension-groupdivider
+Bundle-Version: 3.0.6.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: org.wso2.siddhi.extension.groupdivider;uses:="org.w3c.do
+ m,org.slf4j,org.wso2.siddhi.core.event.stream,org.wso2.siddhi.core.quer
+ y.processor.stream,javax.xml.parsers,org.wso2.siddhi.core.config,org.ws
+ o2.siddhi.core.event,org.wso2.siddhi.core.executor,org.wso2.siddhi.core
+ .query.processor,org.xml.sax,org.wso2.siddhi.core.event.stream.populate
+ r,org.wso2.siddhi.query.api.definition";version="3.0.6.SNAPSHOT"
+Import-Package: javax.xml.parsers;resolution:=optional,org.slf4j;version
+ ="[1.7,2)";resolution:=optional,org.w3c.dom;resolution:=optional,org.ws
+ o2.siddhi.core.config;version="[3.0,4)";resolution:=optional,org.wso2.s
+ iddhi.core.event;version="[3.0,4)";resolution:=optional,org.wso2.siddhi
+ .core.event.stream;version="[3.0,4)";resolution:=optional,org.wso2.sidd
+ hi.core.event.stream.populater;version="[3.0,4)";resolution:=optional,o
+ rg.wso2.siddhi.core.executor;version="[3.0,4)";resolution:=optional,org
+ .wso2.siddhi.core.query.processor;version="[3.0,4)";resolution:=optiona
+ l,org.wso2.siddhi.core.query.processor.stream;version="[3.0,4)";resolut
+ ion:=optional,org.wso2.siddhi.query.api.definition;version="[3.0,4)";re
+ solution:=optional,org.xml.sax;resolution:=optional
+Tool: Bnd-1.50.0
